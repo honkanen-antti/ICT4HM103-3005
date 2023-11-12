@@ -1,3 +1,13 @@
+# Article summaries
+Schneier's book (2015) [Applied Cryptography](https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003) gave great first look to how hashing and public key encryption works. Below is a really short summary of the subchapters 2.3 and 2.4:
+- Many functions look and smell like one-way functions, but having evindence on them is really hard. Theory is present, but having practical evidence is not yet provided. That is why it is expected (or pretended) that one-way functions do exist.
+- For public key encryption we cannot use traditional one-way function, but we need some sort of trapdoor to decrypt the message. By trapdoor in this case we actually mean instructions how to solve the original message.
+- Calculcating hashes gives us a way to check that for example file/package hasn't changed on the way (we download a version we were supposed to download). In theory multiple inputs might produce same hash, but that is pretty unlikely situation hence we can trust pretty safely on checking the hash.
+
+Tero Karvinen's [Command Line Basics Revisited](https://terokarvinen.com/2020/command-line-basics-revisited/) was pretty neat instructions for newbies to interact with terminal. I wish I had stumbled to these instructions when I was learning to use Linux almost 20 years ago.
+
+I actually started with cracking the hashed and stumbled to Tero Karvinen's [Cracking Passwords with Hashcat](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/) article. Tero's instructions are clear and I was easily able to find the correct option I was looking for hashcat (the output `-o` option).
+
 # Billion dollar busywork (task A)
 Adding `v` for example gives hash that starts with 0. So running `echo -n 'vTero'|sha256sum` gives `0ed33bb80f14525269119f8e3d5d1325cbbf2a3ff36242479c3ed45c58d0ff6e`.
 
