@@ -21,16 +21,12 @@ Summary from [Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg](http
 Today I have used SSH access to development server and to version control (GitHub). To setup SSH connection I have created SSH keys and added the public key to GitHub/development server. See [connecting to GitHub witth SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) for more detailed instructions.
 
 # Messaging
-Lab environment running, please try again later...
-```
-Send an encrypted and signed message using PGP, then verify and decrypt it. (You can use folders to simulate users, or use two computers or two different OS users. Don't use Tero as a name of any party, unless that's your given name.)
-```
+I followed Tero Karvinen's instructions [Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg](https://terokarvinen.com/2023/pgp-encrypt-sign-verify/) to create folders for Bob and Alice and sent a message to Bob. As per instructions everything worked like a charm.
 
 # Other tool
-Lab environment running, please try again later...
-```
-Encrypt a message using a tool other than PGP. Explain how different parties use different keys at different stages of operation. Evaluate the security of the tool you've chosen.
-```
+I decided to try out Kali Linux's [ccrypt](https://www.kali.org/tools/ccrypt/) tool as it was already installed. Simple instruction is to encrypt a file using `ccrypt -e file.txt` and then provide encryption key to command line. Decryption works with command `ccrypt -d file.txt.cpt` and providing the same encryption key used.
+
+![Example encryption and decryption](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 # Eve and Mallory
 Both parties have built trust relationship so both parties trust each other. By building this trust relationship and sharing the public keys in some secure way, messaging parties prevent Eve and Mallory acting. Eve can listen the conversation, but all she
