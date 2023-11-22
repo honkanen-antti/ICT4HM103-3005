@@ -52,3 +52,6 @@ Analyzing '$2y$18$axMtQ4N8j/NQVItQJed9uORfsUK667RAWfycwFMtDBD6zAo1Se2eu'
 ```
 
 Now with the few options I went on to try to crack the hash with mode 3200 and rockyou.txt: `hashcat -a 0 -m 3200 '$2y$18$axMtQ4N8j/NQVItQJed9uORfsUK667RAWfycwFMtDBD6zAo1Se2eu' rockyou.txt`. After waiting for a while I got the hash cracked and the answer was `12345`.
+
+# References
+[Trust to Blockchain 2023 autumn](https://terokarvinen.com/2023/trust-to-blockchain/)
