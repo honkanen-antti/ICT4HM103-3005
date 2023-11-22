@@ -52,3 +52,6 @@ sudo ufw enable
 ```
 
 Now Debian virtual machine is ready to be used in exercise.
+
+# References
+[Trust to Blockchain 2023 autumn](https://terokarvinen.com/2023/trust-to-blockchain/)
