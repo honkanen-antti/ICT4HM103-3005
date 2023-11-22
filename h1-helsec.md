@@ -29,3 +29,6 @@ Level 4: Due to lack of time I had to stop here and return the homework, but wil
 
 ## After thoughts for the exerice
 (Yes, this is written after actually returning the homework.) As the LLMs are coming more popular and organizations are adapting to these, security will get whole new aspect. Gandalf is pinpointing how social engineering is done and how easy it is to actually trick LLMs (and people) to give details they shouldn't.
+
+# References
+[Trust to Blockchain 2023 autumn](https://terokarvinen.com/2023/trust-to-blockchain/)
