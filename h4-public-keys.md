@@ -26,7 +26,7 @@ I followed Tero Karvinen's instructions [Karvinen 2023: PGP - Send Encrypted and
 # Other tool
 I decided to try out Kali Linux's [ccrypt](https://www.kali.org/tools/ccrypt/) tool as it was already installed. Simple instruction is to encrypt a file using `ccrypt -e file.txt` and then provide encryption key to command line. Decryption works with command `ccrypt -d file.txt.cpt` and providing the same encryption key used.
 
-![Example encryption and decryption](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Example encryption and decryption](/ccrypt.png)
 
 # Eve and Mallory
 Both parties have built trust relationship so both parties trust each other. By building this trust relationship and sharing the public keys in some secure way, messaging parties prevent Eve and Mallory acting. Eve can listen the conversation, but all she
