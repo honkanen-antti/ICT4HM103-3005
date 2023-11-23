@@ -1,7 +1,7 @@
 # Article summaries
 Summary from [Schneier 2015: Applied Cryptography: Chapter 2](https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec005):
 - Public key encryption allows everyone to encrypt messages, but only the private key holder can decrypt the messages. Using public key cryptography solves key-management problem, when symmetric cryptography requires both parties to use same key.
-- "Trent has to be completely secure. If his database of secret keys ever got out or if someone managed to modify his programming, everyone's signatures would be completely useless. False documents purported to be signed years ago could appear."
+- Having central authority provides more trust between parties because third party is verifying each party separately. Having central authority must have enough secure systems so that malicous parties cannot fake third party.
 - Digital signature often include timestamps to verify when message was signed. This approach is to eliminate reusing signing and crooked signing (signing -> leaking private key on purpose -> lying that someone used your key to sign).
 - Theoretically signing messages can be compromised, but requires some party to not check the signatures. You should check the message for comprehensibility before sending a receipt to avoid this security problem.
 - Computers don't create actual random numbers, but pseudo-random numbers. This is a bit of an issue with cryptography, but something that can be managed.
