@@ -7,5 +7,6 @@ Trust to Blockchain course
 3. [H2 Crown jewels](h2-crown-jewels)
 4. [H3 Hashes](h3-hashes)
 5. [H4 Public keys](h4-public-keys)
+6. [H5 Not Byzantine](h5-not-byzantine)
 
 Presentation material: [Secure Software Development](secure-software-development)
