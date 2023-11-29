@@ -1,4 +1,5 @@
 # Article summary
+[Nakamoto (2008)](https://bitcoin.org/bitcoin.pdf) presented an alternative to centralized financial industries/actors. Instead of relying on trusted third party to prevent double-spending peer-to-peer network could be used to form a trusted source. This electric payment system would be based on cryptography instead of trust, making it accessible for every willing to participate. Transactions are verified and long chain provides proof-of-work making it hard (should I say almost impossible) to make changes to the past. Timestamps are used for hashes, but time itself is not relevant information. In peer-to-peer network longest chain is master and nodes can come and go as they want. This makes Bitcoin easy to maintain, because there isn't need for centralized party to be a master.
 
 # Bitcoin testnet wallet
 Firstly I just followed instruction from the course page [Trust to Blockchain 2023 autumn](https://terokarvinen.com/2023/trust-to-blockchain/#h5-not-byzantine) and ramped up the electrum client using testnet. I initialized a new wallet with default settings and created a new seed.
