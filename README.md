@@ -9,5 +9,6 @@ Trust to Blockchain course
 5. [H4 Public keys](h4-public-keys)
 6. [H5 Not Byzantine](h5-not-byzantine)
 7. [H6 Iceberg](h6-iceberg)
+8. [H7 Hacker Feed](h7-hacker-feed)
 
 Presentation material: [Secure Software Development](secure-software-development)
